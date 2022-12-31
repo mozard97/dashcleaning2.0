@@ -98,8 +98,19 @@ const Herosection = ({ services }) => {
                 </div>
               </div>
               <div className="mt-12 lg:relative lg:mb-0 hidden lg:block">
-                <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-                  <img className="w-full " src="/assets/cleaning6.png" alt="" />
+           <div className="grid  grid-cols-3 gap-4">
+                <div className="aspect-w-10 aspect-h-6 overflow-hidden rounded-2xl shadow-2xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full col-start-1 col-end-3 ...">
+
+
+                 
+                  <img className="object-cover lg:h-full lg:w-full"  src="/assets/livi101.jpeg" alt="" />
+                  
+                  </div>
+
+                  <div className="aspect-w-15 aspect-h-6 overflow-hidden rounded-xl shadow-md sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full col-end-4 col-span-2 ...  " >
+                  <img className="w-full " src="/assets/reb101.jpeg " alt="" />
+                  </div>
+                  
                 </div>
               </div>
             </div>

@@ -10,14 +10,22 @@ const navigation = [
     title: "Home",
     href: "/",
   },
-  {
-    title: "About",
-    href: "/about",
-  },
+  // {
+  //   title: "About",
+  //   href: "/about",
+  // },
 
+  // {
+  //   title: "Blogs",
+  //   href: "/blogs",
+  // },
   {
-    title: "Blogs",
-    href: "/blogs",
+    title: "Log in",
+    href: "/login",
+  },
+  {
+    title: "Sign up",
+    href: "/signup",
   },
 ];
 export default function NewNavbar() {
@@ -80,7 +88,7 @@ export default function NewNavbar() {
                   type="submit"
                   className="block w-full text-white rounded-md bg-indigo-500 py-2.5 px-4 font-medium shadow hover:bg-indigo-600 focus:outline-none"
                 >
-                  352-306-4415
+                Become a Pro
                 </button>
               </div>
             </div>
