@@ -1,0 +1,146 @@
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.mainHeading > h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #cf711f;
+}
+
+.mainHeading > p {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.subHeading {
+  margin-top: 6rem;
+  font-size: 1.8rem;
+  color: #cf711f;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.aboutTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.aboutText {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+}
+
+.reviewContainer {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewContainer h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+}
+
+.TheFlex {
+  width: 80vw;
+  margin: 4rem auto 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.review {
+  box-shadow: 0 2px 2px 2px rgba(192, 192, 192, 0.23);
+  min-width: 25rem;
+  max-width: 30rem;
+  min-height: 18rem;
+  flex-grow: 1;
+  /* flex-basis: 30%; */
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.review:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.reviewHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #18104b;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+.reviewText {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  padding-top: 1rem;
+}
+
+.reviewText span {
+  font-weight: 900;
+}
+
+.reviewStars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewStars svg {
+  color: #cf711f;
+  width: 2rem;
+}
+

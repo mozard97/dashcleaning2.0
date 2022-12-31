@@ -1,0 +1,180 @@
+.container{
+    padding: 8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+  } 
+  .hero{
+    display: flex;
+    max-width: auto;
+    margin: 0 auto;
+    gap: 5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+  }
+  .heroTitle{
+    font-size:3.5rem;
+    font-weight: 700;
+    color:#333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+  }
+  .heroDescription{
+    font-size:2rem;
+    line-height: 1.6;
+    margin-bottom: 3.8rem;
+  }
+  .heroText{
+    flex: 1;
+  }
+  .heroLink{
+    text-decoration: none;
+  }
+  
+
+  .heroImage{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  .heroBtn{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+  
+    gap: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .heroButton:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 1.2rem 1.4rem rgba(0,0,0,0.075);
+  }
+
+  .heroButton
+  , .heroButton:link, .heroButton:visited{
+    font-weight: 600;
+    padding: 2.6rem;
+    border: none;
+    font-family: inherit;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color:#96f2d7;
+  
+  }
+  .heroButtonText{
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  }
+  .format{
+    display: flex;
+    margin-top:4rem ;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    
+    
+  }
+  .input{
+    font-size: 1.7rem;
+    padding: 1rem;
+    flex:3;
+    border-radius: 2px;
+
+  }
+  .btnSearch{
+    flex:1;
+border-radius: 2px;
+background-color: #96f2d7;
+font-size: 1.7rem;
+padding: 1rem;
+  }
+  .containerTwo{
+    display:flex;
+    margin: 4rem;
+  }
+  .boxOne{
+    flex:1;
+    margin: 2rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    min-height: 25vh;
+   border-radius: 11px;
+   position: relative;
+  
+
+  }
+.boxOne:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 1.2rem 1.4rem rgba(0,0,0,0.075);
+    
+    }
+
+
+
+
+  .lineTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    
+  }
+  .partThree{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    min-height: 50vh;
+    background-color: #96f2d7;
+    border-radius: 9px;
+  }
+  .partFour{
+    display: flex;
+    min-height: 75vh;
+    /* padding: 2rem; */
+    margin: 2rem;
+    justify-content: space-evenly;
+
+
+  }
+  .partFourA{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+  
+
+  }
+  .span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+   align-self: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;
+  }
+
+  /* .mainPartFive */
+  .mainPartFive{
+    display: flex;
+  }

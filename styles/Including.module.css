@@ -1,0 +1,264 @@
+.mainContainer {
+  width: 100%;
+}
+
+.headerOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.headingPrimary {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.headingDescription {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+}
+
+.btnCoupon {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btnCoupon label {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+
+.btnCoupon input {
+  outline: none;
+  border: 1px solid #cf711f;
+  font-size: 1.8rem;
+  padding: 1rem;
+  border-radius: 11px;
+}
+
+.btnInput {
+  font-size: 1.8rem;
+  background-color: #e67e22;
+  cursor: pointer;
+  color: #fff4e6;
+  padding: 1rem;
+  border-radius: 11px;
+  border: none;
+}
+
+.btnInput :hover,
+.btnInput:active {
+  background-color: #fdf2e9;
+}
+
+.TheFlex {
+  width: 80vw;
+  margin: 8rem auto 12rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.service {
+  box-shadow: 0 2px 2px 2px rgba(192, 192, 192, 0.23);
+  min-width: 25rem;
+  min-height: 22rem;
+  flex-grow: 1;
+  flex-basis: 30%;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.service:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.searviceHeading {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #cf711f;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+.listDescription {
+  font-size: 2rem;
+  line-height: 1.6;
+  padding-top: 1rem;
+}
+
+.serviceDescriptionContainer {
+  width: 100%;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textBox {
+  max-width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 3.5rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(147, 122, 20, 0.35),
+    rgba(246, 244, 242, 0.742)
+  );
+}
+
+.listDescriptionTwo {
+  font-size: 2rem;
+  line-height: 1.6;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 1rem 4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+  cursor: pointer;
+  margin-top: 2rem;
+  border: none;
+}
+
+.btn :hover,
+.btn:active {
+  background-color: #fdf2e9;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.flexTwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.boxTwo {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.boxOne,
+.boxTwo {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.boxOne {
+  flex-basis: 30%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxImage {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.boxTwo {
+  flex-basis: 65%;
+  flex-grow: 1;
+}
+
+.listDescriptionThree {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  padding-top: 1rem;
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .flexTwo {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .boxImage {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .btnCoupon {
+    flex-direction: column;
+  }
+  .textBox {
+    padding: 1.5rem;
+  }
+}

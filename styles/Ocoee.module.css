@@ -1,0 +1,373 @@
+.sectionHero{
+    padding: 8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+  } 
+  .hero{
+    display: flex;
+    max-width: auto;
+    margin: 0 auto;
+    gap: 5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+  }
+  .heroTitle{
+    font-size:5.2rem;
+    font-weight: 700;
+    color:#333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+  }
+  .heroDescription{
+    font-size:2rem;
+    line-height: 1.6;
+    margin-bottom: 3.8rem;
+  }
+  .heroText{
+    flex: 1;
+  }
+  .heroLink{
+    text-decoration: none;
+  }
+  
+
+  .heroImage{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  .heroBtn{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+  
+    gap: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .heroButton:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 1.2rem 1.4rem rgba(0,0,0,0.075);
+  }
+
+  .heroButton
+  , .heroButton:link, .heroButton:visited{
+    font-weight: 600;
+    padding: 2.6rem;
+    border: none;
+    font-family: inherit;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color:#96f2d7;
+  
+  }
+  .heroButtonText{
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  }
+
+  /* review */
+
+  .reviewWrapper
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .heroReview{
+    box-shadow: 0 0rem 1.2rem rgba(0,0,0,0.075);
+    border-radius: 1rem;
+    transition: all 0.3s;
+    padding: 2rem;
+    width: 50%;
+    min-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .heroReview:hover{
+    box-shadow: 0 1.2rem 1.2rem rgba(0,0,0,0.075);
+    transform: translateY(-1.0rem);
+    cursor: pointer;
+  }
+  .heroRating{
+    display:flex;
+    gap: 1.5px;
+  }
+  .heroIcon{
+    width: 3.2rem;
+    height: 3.2rem;
+    fill: gold;
+  }
+  .heroRatingTitle{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+  }
+  .heroRatingText{
+    font-size:1.8rem;
+    line-height: 1.6;
+  }
+  .heroNameText{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+    
+  }
+
+  .workSection{
+    padding: 3.8rem
+  }
+  .works{
+    display: flex;
+    gap: 1rem;
+  }
+  .work{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+    text-align: center;
+    padding: 2.5rem;
+    box-shadow: 0 0rem 1.2rem rgba(0,0,0,0.075);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  .work:hover{
+    box-shadow: -2px 10px 6.2rem rgb(0 0 0 / 8%);
+    transform: translateY(-1.0rem);
+    cursor: pointer;
+  }
+  .workSpan{
+    font-size: 1.5rem;
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .workDescription{
+    font-size:2rem;
+    /* text-align: justify; */
+     line-height: 1.6; 
+     /* letter-spacing: 1px; */
+  }
+  .workSectionTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.8rem;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .workBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .workButton, .workButton:link, .workButton:visited{
+  
+    font-weight: 600;
+    padding: 2.2rem 2.2rem;
+    font-size: 1.8rem;
+    border: none;
+    font-family: inherit;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color:#96f2d7;
+  }
+  .workButton:hover{
+    background-color: #e67700;
+    color: #96f2d7;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 1.2rem 1.4rem rgba(0,0,0,0.075);
+  }
+
+
+  .cleaningServiceWrapper{
+    padding: 5rem 8rem;
+  }
+  .careSections{
+    margin-top: 4rem;
+    padding: 3.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .Cares{
+    box-shadow:0 2.4rem 11.8rem rgb(0 0 0 / 8%);
+    border-radius: 2rem;
+    padding: 4rem;
+  }
+  .careService{
+    display:flex;
+    gap: 2rem;
+  }
+  .careContent{
+    flex: 1;
+    padding: 2rem;
+    /* text-align: justify; */
+  }
+
+  .careImage,.careImageTwo{
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .careTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .subheading{
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .careContent{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    letter-spacing: 1px;
+  }
+  .careImageTwo{
+    margin-left: 10rem;
+    
+  }
+  .Cares>.careService{
+    padding: 0rem 4rem;
+  }
+  .workBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .workButtons, .workButtons:link, .workButtons:visited{
+  
+    font-weight: 600;
+    padding: 2.6rem 2.6rem;
+    font-size: 1.8rem;
+    border: none;
+    font-family: inherit;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: all 0.3s;
+    background-color:#96f2d7;
+    margin-bottom: 10rem;
+  }
+
+
+
+  @media screen and (max-width: 1000px) {
+    .heroButtonText{
+      font-size: 1.7rem;
+    }
+    .heroDescription{
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 875px) {
+    .hero{
+      flex-direction: column;
+      align-items: center;
+    }
+    .heroTitle{
+      text-align: center;
+      font-size: 3.1rem;
+    }
+    .heroBtn{
+      justify-content: center;
+    }
+
+    .subheading{
+      font-size: 2.0rem;
+      text-align: center;
+    }
+    .careSections{
+      padding: 1.8rem;
+    }
+    .careContent{
+      font-size: 1.8rem;
+      padding: 0;
+    }
+    .careService{
+      flex-direction: column;
+    }
+    .cleaningServiceWrapper>:nth-child(4){
+      flex-direction: column-reverse;
+    }
+    .cleaningServiceWrapper>:last-child>.careImage{
+      display: none;
+    }
+    .Cares>.careService{
+      padding: 0;
+    }
+    .cleaningServiceWrapper{
+      padding: 0;
+    }
+    .careImageTwo
+    {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .sectionHero{
+      padding: 6rem;
+    }
+
+    .works{
+      flex-direction: column;
+    }
+    .heroReview{
+      width: 80%;
+    }
+    .heroButton{
+      padding: 1.7rem;
+    }
+    .heroButtonText{
+      font-size: 1.6rem;
+    }
+    .heroRatingTitle{
+      font-size: 1.6rem;
+    }
+    .heroRatingText{
+      text-align: center;
+      font-size: 1.3rem;
+    }
+   
+  }
+  .container {
+    margin: 0px;
+    padding: 10rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+   
+  }

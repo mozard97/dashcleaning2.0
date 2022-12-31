@@ -1,0 +1,122 @@
+
+.container {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(180deg, #FDF2E9 0%, rgba(253, 242, 233, 0) 44.19%, rgba(253, 242, 233, 0) 54.29%, #fdf2e900 100%); */
+}
+.container>:first-child{
+    text-transform: uppercase;
+    font-weight: 500;
+    color:rgba(59, 131, 246, 0.862);
+    font-size: 1.2rem;
+}
+.container>:nth-child(2)
+{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    width: 70%;
+}
+.author{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.author>.authorImageWrapper{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.author>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.author>div>:nth-child(1){
+    font-size: 1rem;
+}
+.author>div>:nth-child(2)
+{
+    color:grey;
+    font-size: .9rem;
+}
+.imageWrapper{
+    width: 60rem;
+    height: 30rem;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.blogText{
+   font-family: 'poppins'; 
+   max-width: 70%;
+   font-size: 1rem;
+   line-height: 1.9rem;
+   display: flex;
+   flex-direction: column;
+   color: rgb(77, 77, 77);
+   text-align: justify;
+}
+.blogText>blockquote{
+    color: black;
+    font-style: italic;
+}
+.blogText>p{
+    margin-block-start:1em
+}
+.container>:nth-last-child(2){
+    text-transform: uppercase;
+    font-weight: 500;
+    color:rgba(59, 131, 246, 0.862);
+    font-size: 1rem;
+}
+.container>:nth-last-child(2){
+    cursor: pointer;
+}
+.authorDetail{
+    display: flex;
+    width: 70%;
+    background: #fafafa;
+    padding: 2rem;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.authorDetail>.authorImageWrapper{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+.authorDetail>div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+}
+@media screen and (max-width: 950px) {
+    .imageWrapper{
+        width: 90%;
+    }
+    .container>:nth-child(2)
+    {
+        width: 100%;
+    }
+    .blogText{
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 700px) {
+
+    .container{
+        padding: 2rem 2rem;
+        row-gap: 2rem;
+    }
+    
+}
